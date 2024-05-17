@@ -107,6 +107,7 @@ public class Driver {
         if (driverPool.get() != null) {
             driverPool.get().quit(); // Quit the WebDriver instance
             driverPool.remove(); // Remove the WebDriver instance from the thread-local variable
+
         }
     }
 }
